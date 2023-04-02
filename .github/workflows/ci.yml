@@ -22,4 +22,4 @@ jobs:
           path: .cache
       - run: git lfs checkout
       - run: npm install gh-pages
-      - run: gh-pages -d dist
+      - run: npm run deploy
