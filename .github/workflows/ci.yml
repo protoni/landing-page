@@ -21,4 +21,4 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: git lfs checkout
-      - run: gp-pages -d dist
+      - run: gh-pages -d dist
